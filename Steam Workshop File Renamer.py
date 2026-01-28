@@ -51,7 +51,13 @@ def is_workshop_foler(folder_name):
 
 
 def fetch_id(folder_name):
-    Digits_in_folder = re.findall(r'[\d+]', '', )
+    Digits_in_folder = re.findall(r'\d+', '', )
+    if Digits_in_folder:
+        id = max(Digits_in_folder, key=len)
+        if id:
+            len(id) >= 6
+            return id
+        return None
 
 
 
