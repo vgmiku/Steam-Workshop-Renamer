@@ -21,15 +21,6 @@ class SteamFetchPublishedFiles:
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Fetch File details -> JSON
 
 dir = os.getcwd()
-# from storageid import API_Key
-# api = SteamFetchPublishedFiles(API_Key)
-# details = api.fetchfileinfo(3651728936)
-# detailsdata = details.get('response', {})
-# filelist = detailsdata.get('publishedfiledetails', [{}])
-# title = filelist[0].get( 'title', f'{fileid}')
-
-# with open(f"{os.path.join(dir, "filehtml.txt")}", "w") as ovw:
-#     ovw.write(title)
 
 def is_workshop_foler(folder_name):
     patterns_folder=[
