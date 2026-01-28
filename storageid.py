@@ -1,1 +1,1 @@
-API_Key = "Your API Key form https://steamcommunity.com/dev/apikey"
+API_Key = "Your API Key from https://steamcommunity.com/dev/apikey"
